@@ -193,10 +193,10 @@ namespace ChallengesWithTestsMark8.Tests
         public void AverageEvens(int[] numbers, double expected)
         {
             // Arrange
-            ChallengesSet04 challenger = new ChallengesSet04();
+            ChallengesSet04 ChallengesSet04 = new ChallengesSet04();
 
             // Act
-            double actual = challenger.AverageEvens(numbers);
+            double actual = ChallengesSet04.AverageEvens(numbers);
 
             // Assert
             Assert.Equal(Math.Round(expected, 5), Math.Round(actual, 5));

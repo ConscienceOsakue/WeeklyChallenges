@@ -12,3 +12,4 @@ C:\Users\consc\Desktop\repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\
 C:\Users\consc\Desktop\repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.pdb
 C:\Users\consc\Desktop\repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.genruntimeconfig.cache
 C:\Users\consc\Desktop\repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ref\ChallengesWithTestsMark8.dll
+C:\Users\consc\Desktop\repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.sourcelink.json
