@@ -34,20 +34,20 @@ namespace ChallengesWithTestsMark8
 
             if (num >= 0)
             {
-                if (num % 2 != 0 || num % 3 != 0)
+                if (num % 2 != 0 && num % 3 != 0)
                 {
                     isPrime = true;
                 }
+ 
+            }
+            if ((num == 2) || (num == 3))
+            {
+                isPrime = true;
+            }
 
-                if (num == 2 || num == 3)
-                {
-                    isPrime = true;
-                }
-
-                if (num == 1)
-                {
-                    isPrime = true;
-                }
+            if (num == 1)
+            {
+                isPrime = false;
             }
             return isPrime;
         }

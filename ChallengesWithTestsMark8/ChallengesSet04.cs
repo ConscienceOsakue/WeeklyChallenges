@@ -9,23 +9,23 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-           // var sum = 0;
+            // var sum = 0;
             //foreach (var num in numbers)
-           // {
-              //  if(num % 2 == 0)
-               // {
-                //    sum += numb;
-               // }
-                //if (numb % 2 != 0)
-               // {
-               //     sum -= numb;
-              //  }
-               // return sum;
+            // {
+            //  if(num % 2 == 0)
+            // {
+            //    sum += numb;
+            // }
+            //if (numb % 2 != 0)
+            // {
+            //     sum -= numb;
+            //  }
+            // return sum;
             //}
 
             return numbers.Where(x => x % 2 == 0).Sum() - numbers.Where(x => x % 2 != 0).Sum();
-                
-            
+
+
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
@@ -47,9 +47,9 @@ namespace ChallengesWithTestsMark8
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            return(
-                sideLength1 + sideLength2 > sideLength3 
-                &&  sideLength1 + sideLength3 > sideLength2 
+            return (
+                sideLength1 + sideLength2 > sideLength3
+                && sideLength1 + sideLength3 > sideLength2
                 && sideLength2 + sideLength3 > sideLength1
                 );
         }
@@ -62,19 +62,19 @@ namespace ChallengesWithTestsMark8
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-           var amount = objs.Length;
+            var amount = objs.Length;
             var majority = (amount / 2) + 1;
 
             var count = 0;
 
-            foreach ( var obj in objs )
+            foreach (var obj in objs)
             {
-                if ( obj == null)
+                if (obj == null)
                 {
                     count++;
                 }
             }
-            if ( count >= majority )
+            if (count >= majority)
             {
                 return true;
             }
@@ -93,21 +93,21 @@ namespace ChallengesWithTestsMark8
                 return 0;
             }
 
-            foreach( var num in numbers)
+            foreach (var num in numbers)
             {
-                if(num % 2 == 0)
+                if (num % 2 == 0)
                 {
                     sum += num;
                     count++;
                 }
             }
 
-            if ( count > 0 )
+            if (count > 0)
             {
                 return sum / count;
             }
-            else 
-            { 
+            else
+            {
                 return 0;
             }
         }
@@ -115,13 +115,14 @@ namespace ChallengesWithTestsMark8
 
         public int Factorial(int number)
         {
-           
-            if( number == 0 )
+
+            if (number == 0)
             {
                 return 1;
             }
             return number * Factorial(number - 1);
-            
+
         }
     }
+        
 }
